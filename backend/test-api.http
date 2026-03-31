@@ -1,0 +1,212 @@
+POST http://localhost:8080/api/method1/run_match
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test"
+}
+
+###
+
+POST http://localhost:8080/api/method2/run_match
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test"
+}
+
+
+### Method1 - roi_options
+POST http://localhost:8080/api/method1/roi_options
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+
+###
+
+### Method1 - step1
+POST http://localhost:8080/api/method1/step1
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+
+### Method1 - step2
+POST http://localhost:8080/api/method1/step2
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "roiName": "CTV_5400"
+}
+
+### Method1 - step3
+POST http://localhost:8080/api/method1/step3
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+
+
+### Method2 - roi_options
+POST http://localhost:8080/api/method2/roi_options
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+
+###
+
+### Method2 - step1
+POST http://localhost:8080/api/method2/step1
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+
+### Method2 - step2
+POST http://localhost:8080/api/method2/step2
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "roiName": "CTV_5400"
+}
+### Method2 - step3
+POST http://localhost:8080/api/method2/step3
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+### Method2 - step4
+POST http://localhost:8080/api/method2/step4
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532"
+}
+
+### Method2 - step5
+POST http://localhost:8080/api/method2/step5
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "roiName": "CTV_5400"
+}
+
+### Method2 - step6
+POST http://localhost:8080/api/method2/step6
+Content-Type: application/json
+
+{
+  "sourceRoot": "G:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "G:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "roiName": "CTV_5400"
+}
+### Method1 - step4
+POST http://localhost:8080/api/method1/step4
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "shift": 108,
+  "cbctYExtra": 44,
+  "ctYShift": 50,
+  "applyCtMask": false
+}
+
+### Method1 - step5
+POST http://localhost:8080/api/method1/step5
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "roiName": "CTV_5400"
+}
+
+### Method1 - step6
+POST http://localhost:8080/api/method1/step6
+Content-Type: application/json
+
+{
+  "sourceRoot": "F:/mimi0209/HeadNeck-selected",
+  "workspaceRoot": "F:/mimi0209/output-test",
+  "patientFolder": "HN049",
+  "matchText": "CBCT_20000120-1512 matched with QACT_20000120-1532",
+  "shift": 108,
+  "cbctYExtra": 44,
+  "modelName": "mb_taylor"
+}
+### inference - run
+POST http://localhost:8080/api/inference/run
+Content-Type: application/json
+
+{
+  "modelDir": "model_cstgan",
+  "modelKind": "mb_taylor",
+  "datasetName": "046_047",
+  "gpuIds": "0"
+}
+### inference - stream
+POST http://localhost:8080/api/inference/stream
+Content-Type: application/json
+
+{
+  "modelDir": "model_cstgan",
+  "modelKind": "mb_taylor",
+  "datasetName": "046_047",
+  "gpuIds": "0"
+}
+
+### inference - defaults
+POST http://localhost:8080/api/dicom/defaults
+Content-Type: application/json
+
+{}

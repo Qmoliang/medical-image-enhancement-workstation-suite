@@ -1,0 +1,39 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: cbct-backend
+
+app:
+  python:
+    # ======================================================
+    # 以后如果 Python 脚本目录换位置，改这里
+    # 当前是 Spring 项目里的 python 文件夹
+    # ======================================================
+    executable: D:/anaconda3/envs/simple/python.exe
+    working-directory: G:/CBCTtoCT_Spring/python
+    bridge-script: G:/CBCTtoCT_Spring/python/spring_bridge.py
+
+  paths:
+    project-root: G:/CBCTtoCT_Spring
+    python-root: G:/CBCTtoCT_Spring/python
+    workspace-root: G:/CBCTtoCT_Spring/workspace
+
+    legacy-project-root: G:/CBCTtoCT
+    data-root: G:/CBCTtoCT/Data
+    test-patient-root: G:/CBCTtoCT/TestPatient
+    dicom-results-dir: G:/CBCTtoCT/DICOM_results
+
+    raw-root: G:/mimi0209/output-test
+    dicom-root: G:/mimi0209/HeadNeck-selected
+
+    patient-params-json: G:/CBCTtoCT_Spring/python/patient_params.json
+    patient-rename-json: G:/CBCTtoCT_Spring/python/Patient_rename.json
+    process-pipeline-script: G:/CBCTtoCT_Spring/python/process_pipeline.py
+    extract-merge-script: G:/CBCTtoCT/extract_and_merge.py
+
+logging:
+  level:
+    root: INFO
+    com.cbct.cbct_backend: INFO

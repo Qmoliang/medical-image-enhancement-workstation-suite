@@ -1,0 +1,257 @@
+{
+  "HN005": {
+    "offset_x": 38,
+    "offset_y": 5,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN005/CBCT_20000215-1603/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN005/CBCT_20000215-1603"
+  },
+  "HN007": {
+    "offset_x": 12,
+    "offset_y": -9,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN007/CBCT_20000723-1448/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN007/CBCT_20000723-1448"
+  },
+  "HN029": {
+    "offset_x": 4,
+    "offset_y": 4,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      1.171875,
+      1.171875
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN029/CBCT_20000130-1530/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN029/CBCT_20000130-1530"
+  },
+  "HN030": {
+    "offset_x": 33,
+    "offset_y": 3,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN030/CBCT_20000209-1617/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN030/CBCT_20000209-1617"
+  },
+  "HN031": {
+    "offset_x": -4,
+    "offset_y": 0,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN031/CBCT_20000129-1655/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN031/CBCT_20000129-1655"
+  },
+  "HN040": {
+    "offset_x": 28,
+    "offset_y": 15,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN040/CBCT_20000118-0916/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN040/CBCT_20000118-0916"
+  },
+  "HN041": {
+    "offset_x": 26,
+    "offset_y": 9,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      1.171875,
+      1.171875
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN041/CBCT_20000205-1531/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN041/CBCT_20000205-1531"
+  },
+  "HN042": {
+    "offset_x": 12,
+    "offset_y": -37,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      1.171875,
+      1.171875
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN042/CBCT_20000123-1727/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN042/CBCT_20000123-1727"
+  },
+  "HN043": {
+    "offset_x": -9,
+    "offset_y": 6,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN043/CBCT_20000122-0642/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN043/CBCT_20000122-0642"
+  },
+  "HN044": {
+    "offset_x": -9,
+    "offset_y": -6,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      1.171875,
+      1.171875
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN044/CBCT_20000121-1035/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN044/CBCT_20000121-1035"
+  },
+  "HN046": {
+    "offset_x": -11,
+    "offset_y": -33,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN046/CBCT_20000120-1858/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN046/CBCT_20000120-1858"
+  },
+  "HN047": {
+    "offset_x": 28,
+    "offset_y": 7,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN047/CBCT_20000214-0948/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN047/CBCT_20000214-0948"
+  },
+  "HN048": {
+    "offset_x": 1,
+    "offset_y": -6,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      1.171875,
+      1.171875
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN048/CBCT_20000310-1731/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN048/CBCT_20000310-1731"
+  },
+  "HN049": {
+    "offset_x": 55,
+    "offset_y": -5,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      0.9765625,
+      0.9765625
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN049/CBCT_20000120-1512/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN049/CBCT_20000120-1512"
+  },
+  "HN050": {
+    "offset_x": 35,
+    "offset_y": 0,
+    "old_spacing": [
+      0.56545583612647,
+      0.56545583612647
+    ],
+    "old_thickness": 1.99640288281577,
+    "new_spacing": [
+      1.171875,
+      1.171875
+    ],
+    "new_thickness": 1.5,
+    "target_slices": 107,
+    "raw_relpath": "HN050/CBCT_20000212-0718/interpolated_CBCT_b_spline.raw",
+    "dicom_relpath": "HN050/CBCT_20000212-0718"
+  }
+}

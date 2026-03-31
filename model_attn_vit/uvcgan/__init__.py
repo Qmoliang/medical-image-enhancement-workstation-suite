@@ -1,0 +1,1 @@
+from .consts      import CONFIG_NAME, ROOT_DATA, ROOT_OUTDIR

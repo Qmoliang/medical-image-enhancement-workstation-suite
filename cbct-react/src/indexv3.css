@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* 可在此处添加自定义全局样式 */
+body {
+  @apply bg-slate-50 text-slate-800;
+}
