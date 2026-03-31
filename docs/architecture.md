@@ -72,7 +72,7 @@
 - `dicom`
 - `pipeline`
 
-也就是说，Spring 后端和 Python 业务逻辑之间，并不是直接耦合在每个脚本上，而是先经过一个统一桥接层。
+这意味着 Spring 后端和 Python 业务逻辑之间并不是直接耦合在每个脚本上，而是先经过一个统一桥接层。
 
 ### Python 工作流层
 
@@ -255,7 +255,7 @@ flowchart LR
 - `util/`：工具函数
 - `train.py` / `test.py`：训练与测试入口
 
-也就是说，当前项目的推理能力不是直接内嵌在 Spring 或 React 中，而是依赖这些模型工程目录，由 Python 工作流在本地调用。
+这意味着当前项目的推理能力并不是直接内嵌在 Spring 或 React 中，而是依赖这些模型工程目录，并由 Python 工作流在本地调用。
 
 ## 4. 这个系统为什么是“工作站”而不是单个 demo
 
@@ -280,9 +280,9 @@ flowchart LR
 - 单纯的在线图片增强 demo
 - 单纯的模型权重仓库
 
-## 5. 推荐阅读下一步
+## 5. 相关文档
 
-如果你已经理解了整体架构，下一步建议继续看：
+配套说明文档如下：
 
 - [hardcoded-configs.md](hardcoded-configs.md)
 - [directory-guide.md](directory-guide.md)
