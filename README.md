@@ -276,12 +276,5 @@ flowchart LR
 4. `docs/hardcoded-configs.md`
 5. `docs/local-workflow.md`
 
-## 后续展示建议
 
-当前最适合的公开展示方式不是在线 demo，而是：
 
-- 本地运行录制 demo 视频
-- 在 GitHub README 里说明四个页面与系统结构
-- 在视频里展示默认参数执行流程
-
-这能最大程度展示系统能力，同时避免在论文发表前过早公开数据和完整可复现实验资产。
