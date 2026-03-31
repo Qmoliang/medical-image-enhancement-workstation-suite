@@ -143,6 +143,63 @@ Python 相关入口：
 - `python/method1_workflow.py`
 - `python/spring_bridge.py`
 
+## 界面预览
+
+下面这四张截图对应当前仓库中的四个主要界面。
+
+### 推理与结果整理
+
+![Inference Page](docs/images/inference-page.png)
+
+这个页面主要负责：
+
+- 选择模型目录与模型类型
+- 选择数据集范围
+- 设置 GPU
+- 启动一次性推理
+- 启动流式推理
+- 触发 merge
+- 在页面中查看执行命令和实时日志
+
+### DICOM 导出
+
+![DICOM Export Page](docs/images/dicom-export.png)
+
+这个页面主要负责：
+
+- 选择模型目录与模型类型
+- 选择数据集范围
+- 启动 DICOM 恢复流程
+- 在导出阶段查看 pipeline 输出日志
+
+### 数据集制作（ORB）
+
+![ORB Workflow Page](docs/images/orb-workflow.png)
+
+这个页面主要负责：
+
+- 病人 / 扫描匹配
+- DICOM → raw
+- 插值
+- ROI 选择
+- shift 检测
+- 微调与中间产物检查
+- JSON 建议条目生成
+
+### 数据集制作（SITK）
+
+![SITK Workflow Page](docs/images/sitk-workflow.png)
+
+这个页面主要负责：
+
+- 病人 / 扫描匹配
+- 原始 raw 生成
+- ROI / Patient mask
+- SITK registration
+- transform1212
+- 回插验证
+- JSON 建议条目生成
+
 ## 总体架构
 
 ```mermaid
